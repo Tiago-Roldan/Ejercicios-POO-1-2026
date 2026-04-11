@@ -28,6 +28,7 @@ Entregables (todo en GitHub):
 
 - Código fuente completo en el repo de estudiante.
 - Capturas de: login, tablero con filtros, editor con estado guardado, historial.
-- Preparar el repositorio para revisión: README con instrucciones de compilación y ejecución.
-- Considerar que se subirán el mismo repositorio todos los ejercicios, por lo que se recomienda organizar el código en carpetas por ejercicio (ej: /Ejercicio01, /Ejercicio02, etc).
-- Durante la clase se harán pausas para revisar dudas y conectar con teoría (clases, señales/slots y arquitectura).
+
+Preparar el repositorio para revisión: README con instrucciones de compilación y ejecución.
+Considerar que se subirán el mismo repositorio todos los ejercicios, por lo que se recomienda organizar el código en carpetas por ejercicio (ej: /Ejercicio01, /Ejercicio02, etc).
+Durante la clase se harán pausas para revisar dudas y conectar con teoría (clases, señales/slots y arquitectura).
