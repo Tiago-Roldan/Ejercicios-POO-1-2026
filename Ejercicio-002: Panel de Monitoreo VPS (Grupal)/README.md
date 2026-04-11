@@ -10,7 +10,11 @@ El panel debe mostrar:
 - Un historial corto de eventos.
 
 Debe haber widgets interactivos (por ejemplo: QSpinBox, QPushButton, QLineEdit, QLabel). 
+
 La elección y el rol de cada widget debe estar justificada por el problema.
+
 Inspirarse en un sistema de monitoreo profesional (por ejemplo: Grafana, Zabbix, Prometheus, Netdata o Datadog) para el diseño del panel.
+
 Incluir al menos un control para refresco manual y otro para configurar un umbral o intervalo de chequeo.
+
 Crear al menos una clase propia que contenga la lógica del monitoreo (no todo en main).
