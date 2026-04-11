@@ -1,0 +1,10 @@
+release/main.o
+release/ventanaprincipal.o
+release/vistalienzo.o
+release/modelodibujo.o
+release/trazo.o
+release/gestorsincronizacion.o
+release/moc_ventanaprincipal.o
+release/moc_vistalienzo.o
+release/moc_modelodibujo.o
+release/moc_gestorsincronizacion.o

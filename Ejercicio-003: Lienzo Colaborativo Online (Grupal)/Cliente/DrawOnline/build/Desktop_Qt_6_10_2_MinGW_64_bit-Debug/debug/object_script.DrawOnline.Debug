@@ -1,0 +1,10 @@
+debug/main.o
+debug/ventanaprincipal.o
+debug/vistalienzo.o
+debug/modelodibujo.o
+debug/trazo.o
+debug/gestorsincronizacion.o
+debug/moc_ventanaprincipal.o
+debug/moc_vistalienzo.o
+debug/moc_modelodibujo.o
+debug/moc_gestorsincronizacion.o
