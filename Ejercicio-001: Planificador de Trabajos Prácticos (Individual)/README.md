@@ -51,4 +51,10 @@ ___
   
 ![]()<img width="413" height="288" alt="1" src="https://github.com/user-attachments/assets/02afdc84-f5a6-432f-96ee-09a9f812e00a" />
 
-- Tablero con filtros aplicados
+- Tablero con filtros aplicados, historial a la derecha del mismo, y editor de notas debajo:
+
+<img width="1273" height="793" alt="image" src="https://github.com/user-attachments/assets/747bc4d0-b414-4553-a2d0-49637025cd93" />
+
+- Creacion de un trabajo practico nuevo:
+
+<img width="411" height="237" alt="image" src="https://github.com/user-attachments/assets/51897cdb-9fa8-47be-890d-d97d899cf69d" />
