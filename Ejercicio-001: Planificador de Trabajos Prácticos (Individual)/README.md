@@ -29,6 +29,23 @@ Entregables (todo en GitHub):
 - Código fuente completo en el repo de estudiante.
 - Capturas de: login, tablero con filtros, editor con estado guardado, historial.
 
-Preparar el repositorio para revisión: README con instrucciones de compilación y ejecución.
-Considerar que se subirán el mismo repositorio todos los ejercicios, por lo que se recomienda organizar el código en carpetas por ejercicio (ej: /Ejercicio01, /Ejercicio02, etc).
-Durante la clase se harán pausas para revisar dudas y conectar con teoría (clases, señales/slots y arquitectura).
+___
+
+# Funcionalidades implementadas:
+- Login de usuarios mediante validacion por archivo local
+- Persistencia de sesión: Se guarda la ultima sesion por un corto periodo de tiempo
+- Tablero de trabajos prácticos: Utilizando QHBoxLayout y QVBoxLayout, se permite visualizar las tareas, con informacion sobre los trabajos y botones de accion en los espacios correspondientes de la grilla. Asimismo, se permite filtrar los trabajos mediante estado y prioridad
+- Gestion de trabajos y notas: Se permite dar de alta un trabajo, modificarlo, asignarle y cambiarle las notas, y eliminarlo una vez se ha completado
+- Historial de acciones: Visible en la pantalla principal, persiste en un archivo de guardado, y es visible en todo momento por todos los usuarios
+
+___
+
+# Condiciones técnicas:
+- No se ha utilizado QML ni QMainWindow, se ha trabajado todo mediante QWidget, QObject, y clases con herencias de ambos
+- Se ha organizado el código en diferentes archivos según la clase que usan y la funcionalidad que cumplen en el programa
+
+___
+
+# Capturas de pantalla requeridas:
+- Login de usuarios:
+![]()<img width="413" height="288" alt="1" src="https://github.com/user-attachments/assets/02afdc84-f5a6-432f-96ee-09a9f812e00a" />
