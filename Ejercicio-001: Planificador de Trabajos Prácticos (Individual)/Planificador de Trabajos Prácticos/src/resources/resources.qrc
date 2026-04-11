@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="seed/users.txt">seed/users.txt</file>
+        <file alias="seed/practicalworks.txt">seed/practicalworks.txt</file>
+    </qresource>
+</RCC>

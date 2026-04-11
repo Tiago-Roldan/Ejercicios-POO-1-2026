@@ -1,0 +1,12 @@
+release/authmanager.o
+release/main.o
+release/storagemanager.o
+release/logindialog.o
+release/mainwindow.o
+release/registerdialog.o
+release/taskdialog.o
+release/qrc_resources.o
+release/moc_logindialog.o
+release/moc_mainwindow.o
+release/moc_registerdialog.o
+release/moc_taskdialog.o

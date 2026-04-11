@@ -1,0 +1,4 @@
+SESSION_BEGIN
+username=admin
+expiresAtUtc=2026-04-11T15%3A47%3A05Z
+SESSION_END

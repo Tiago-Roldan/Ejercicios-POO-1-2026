@@ -1,0 +1,12 @@
+debug/authmanager.o
+debug/main.o
+debug/storagemanager.o
+debug/logindialog.o
+debug/mainwindow.o
+debug/registerdialog.o
+debug/taskdialog.o
+debug/qrc_resources.o
+debug/moc_logindialog.o
+debug/moc_mainwindow.o
+debug/moc_registerdialog.o
+debug/moc_taskdialog.o

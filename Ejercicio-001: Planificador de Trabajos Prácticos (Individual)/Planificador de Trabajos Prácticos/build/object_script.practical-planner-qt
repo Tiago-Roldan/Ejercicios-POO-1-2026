@@ -1,0 +1,12 @@
+authmanager.o
+main.o
+storagemanager.o
+logindialog.o
+mainwindow.o
+registerdialog.o
+taskdialog.o
+qrc_resources.o
+moc_logindialog.o
+moc_mainwindow.o
+moc_registerdialog.o
+moc_taskdialog.o

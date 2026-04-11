@@ -1,0 +1,12 @@
+[
+    {
+        "action": "Inicio sesion manual.",
+        "timestamp": "2026-04-11T15:15:01Z",
+        "username": "profe"
+    },
+    {
+        "action": "Restauro la sesion local.",
+        "timestamp": "2026-04-11T15:17:51Z",
+        "username": "profe"
+    }
+]
