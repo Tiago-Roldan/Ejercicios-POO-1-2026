@@ -48,4 +48,7 @@ ___
 
 # Capturas de pantalla requeridas:
 - Login de usuarios:
+  
 ![]()<img width="413" height="288" alt="1" src="https://github.com/user-attachments/assets/02afdc84-f5a6-432f-96ee-09a9f812e00a" />
+
+- Tablero con filtros aplicados
