@@ -1,0 +1,54 @@
+version: "3.8"
+
+services:
+  kanban-api:
+    build: .
+    container_name: kanban-api
+    ports:
+      - "8001:8000"
+    environment:
+      - DATABASE_URL=mysql+pymysql://user:password@mysql:3306/kanbandb
+      - AUTH_API_URL=http://147.93.189.45:8000
+    depends_on:
+      - mysql
+    networks:
+      - kanban-net
+
+  mysql:
+    image: mysql:8
+    container_name: kanban-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: kanbandb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3308:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - kanban-net
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: kanban-phpmyadmin
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: user
+      PMA_PASSWORD: password
+    depends_on:
+      - mysql
+    networks:
+      - kanban-net
+
+volumes:
+  mysql_data:
+
+
+networks:
+  kanban-net:

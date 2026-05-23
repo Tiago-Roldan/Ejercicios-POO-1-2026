@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  drawonline-api:
+    build: .
+    container_name: drawonline-api
+    ports:
+      - "8080:8080"
+    restart: always
